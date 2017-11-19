@@ -29,8 +29,7 @@ To help users get familiar with the files used by MISAGA, we provide the corresp
 After completing all the preparations, one is able to run MISAGA to perform the task of clustering in attributed graph data by running a .bat file in which contains the following codes:
 MISAGA.exe
 pause
-The results of clustering in the attributed graph will be written into a file after MISAGA completes the optimization process.
-If MISAGA cannot be executed, please check the readme.txt for the requirements of running environment.
+The results of clustering in the attributed graph will be written into a file after MISAGA completes the optimization process. If MISAGA cannot be executed, please check the readme.txt for the requirements of running environment, which are in the zip file.
 
 
 Notice: This software is permitted to use only for research and non-commercial activities. If you have any question, please feel free to contact us via csthe@comp.polyu.edu.hk.

@@ -1,4 +1,5 @@
 MISAGA: An algorithm for Mining Interesting Sub-Graphs in Attributed Graphs
+
 The software in this repository is developed based on the approach in the following article: T. He, and K.C.C. Chan, "MISAGA: An Algorithm for Mining Interesting Subgraphs in Attributed Graphs," IEEE Transactions on Cybernetics (TCYB), doi:10.1109/TCYB.2017.2693558.
 
 How to use MISAGA:

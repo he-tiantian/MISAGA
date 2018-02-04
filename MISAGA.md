@@ -9,10 +9,10 @@ To use MISAGA (MISAGA.exe) to detect clusters in an attributed graph, please fir
 1.	edgelist: This file contains the connections in the attributed graph. There are two columns in this file which are the ids of source and target nodes. It should be noted that the starting node id must be 0.
 
 2.	node_similaritylist: This file contains the attribute similarity (relativity) between each pair of nodes in the attributed graph. There are three columns in this files which are the ids of source and target nodes, and the corresponding value of similarity, respectively. Many measures can be used to evaluate the degrees of similarity between pairwise nodes in a attributed graph. For example, the cosine similarity can be used by MISAGA. Assume a matrix F (m-by-n, where n and m are the number of vertices and attributes in the attributed graph, respectively), the cosine similarity between pairwise vertices can be obtained by using the following pseudo codes:
- F = F'*F;
- a = sqrt(diag(F));
- F = F./(a*a');
- F(isnan(F))=0;
+F = F'*F; 
+a = sqrt(diag(F)); 
+F = F./(a*a'); 
+F(isnan(F))=0;
 
 3.	Configuration: This file contains the parameters used by MISAGA. There are 5 reals in this file. They are the settings related to the number of clusters, the bias between edge structure and attribute similarity in the optimization process, the maximum number of optimizing iterations, the minimum change of C between two iterations, and lambda. Here is an example:
 4

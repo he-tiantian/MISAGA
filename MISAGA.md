@@ -1,6 +1,6 @@
 MISAGA: An algorithm for Mining Interesting Sub-Graphs in Attributed Graphs
 
-The software in this repository is developed based on the approach proposed in the following article: T. He, and K.C.C. Chan, "MISAGA: An Algorithm for Mining Interesting Subgraphs in Attributed Graphs," IEEE Transactions on Cybernetics (TCYB), doi:10.1109/TCYB.2017.2693558, 2017. For the full text of the paper, please check http://www.ieeeexplore.ws/document/7911270/.
+The software in this repository is developed based on the approach proposed in the following article: T. He, and K.C.C. Chan, "MISAGA: An Algorithm for Mining Interesting Subgraphs in Attributed Graphs," IEEE Transactions on Cybernetics (TCYB), vol. 48, no. 5, pp. 1369-1382, 2018. For the full text of the paper, please check http://www.ieeeexplore.ws/document/7911270/.
 
 How to use MISAGA: To use MISAGA (MISAGA.exe) to detect clusters in an attributed graph, please firstly prepare four files, which are named as "Configuration," "edgelist," "vertex2aid," and "statistics" and put them into the directory where MISAGA.exe is. The detailed information for these files is the following:
 
